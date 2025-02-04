@@ -1,0 +1,46 @@
+/*set style for main-container-div*/
+.main-container {
+  display: flex;
+  padding: 32px;
+}
+
+/*set style for item-container-div*/
+.product-container{
+  display: flex;
+  gap: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.shopping-card{
+  width: 300px;
+}
+
+/* set dynamic screen-size */
+@media(max-width: 850px) {
+  .product-container {
+    flex-direction: column;
+  }
+}
+.navbar {
+  background-color: mediumblue;
+  margin: 0;
+  margin-bottom: 16px;
+  .navbar-brand{
+    color: white;
+  }
+}
+.checkout-page {
+  margin: 32px;
+}
+.btn-plus{
+  margin-left: 16px;
+  margin-right: 3px;
+}
+.btn-minus {
+  margin-right: 16px;
+}
+.items {
+  margin-top: 3px;
+}
