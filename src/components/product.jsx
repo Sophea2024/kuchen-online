@@ -6,9 +6,9 @@ class Product extends Component {
     return (
     <div className="card" style={{width: "18rem"}}>
     <img 
-      src={"/assets/img/" + this.props.image} 
+      src={this.props.image} 
       className="card-img-top" 
-      alt="..." 
+      alt={this.props.title} 
     />
     <div className="card-body">
       <h5 className="card-title">{this.props.title}</h5>

@@ -3,6 +3,7 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Product from "./components/product";
 import ShoppingCard from "./components/shopping-cake";
 import CheckoutPage from "./components/checkoutPage";
+//import marinKafer from './assets/img/marin_kaefer.jpg';
 
 class App extends Component {
   state = {
@@ -45,8 +46,9 @@ class App extends Component {
           <Route path="/" element={
             <div className="main-container">
               <div className="product-container">
+              {/* <img src={`${process.env.PUBLIC_URL}/assets/img/marin_kaefer.jpg`} alt="Marinkäfer Kuchen" /> */}
                 <Product 
-                  onAdd={() => this.addItem(1, 'Marinkäfer', 12)} 
+                  onAdd={() => this.addItem(1, 'Marinkäfer', 12)}                   
                   image={`${process.env.PUBLIC_URL}/assets/img/marin_kaefer.jpg`} 
                   title="Marinkäfer Kuchen" 
                   description="Bitte füge Marinkäfer Kuchen zu deinem Warenkorb hinzu" 
@@ -54,7 +56,7 @@ class App extends Component {
                 />
                 <Product 
                   onAdd={() => this.addItem(1, 'Schwedische Princessin', 29)} 
-                  image={`${process.env.PUBLIC_URL}/assets/img/schwedische_t.jpg`} 
+                  image={`${process.env.PUBLIC_URL}/assets/img/schwedische_t.jpg`}
                   title="Schwedische Princessin Torte" 
                   description="Bitte füge Schwedische Princessin Torte zu deinem Warenkorb hinzu" 
                   price="29€" 
@@ -68,7 +70,7 @@ class App extends Component {
                 />
                 <Product 
                   onAdd={() => this.addItem(1, 'Himbeer Quark Torte', 39)} 
-                  image={`${process.env.PUBLIC_URL}/assets/img/him_quark_t1.jpg`} 
+                  image={`${process.env.PUBLIC_URL}/assets/img/him_quark_t1.jpg`}
                   title="Himbeer Quark Torte" 
                   description="Bitte füge Himbeer Quark Torte zu deinem Warenkorb hinzu" 
                   price="39€" 
