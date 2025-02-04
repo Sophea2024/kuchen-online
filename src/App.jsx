@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Product from "./components/product";
 import ShoppingCard from "./components/shopping-cake";
 import CheckoutPage from "./components/checkoutPage";
@@ -40,16 +40,39 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
-        
+      <Router>        
         <Routes>
           <Route path="/" element={
             <div className="main-container">
               <div className="product-container">
-                <Product onAdd={() => this.addItem(1, 'Marinkäfer', 12)} image="marin_kaefer.jpg" title="Marinkäfer Kuchen" description="Bitte füge Marinkäfer Kuchen zu deinem Warenkorb hinzu" price="12€" />
-                <Product onAdd={() => this.addItem(1, 'Schwedische Princessin', 29)} image="schwedische_t.jpg" title="Schwedische Princessin Torte" description="Bitte füge Schwedische Princessin Torte zu deinem Warenkorb hinzu" price="29€" />
-                <Product onAdd={() => this.addItem(1, 'Weitwälder', 30)} image="weit_k1.jpg" title="Weitwälder Kuchen" description="Bitte füge Weitwälder Kuchen zu deinem Warenkorb hinzu" price="30€" />
-                <Product onAdd={() => this.addItem(1, 'Himbeer Quark Torte', 39)} image="him_quark_t1.jpg" title="Himbeer Quark Torte" description="Bitte füge Himbeer Quark Torte zu deinem Warenkorb hinzu" price="39€" />
+                <Product 
+                  onAdd={() => this.addItem(1, 'Marinkäfer', 12)} 
+                  image={`${process.env.PUBLIC_URL}/assets/img/marin_kaefer.jpg`} 
+                  title="Marinkäfer Kuchen" 
+                  description="Bitte füge Marinkäfer Kuchen zu deinem Warenkorb hinzu" 
+                  price="12€" 
+                />
+                <Product 
+                  onAdd={() => this.addItem(1, 'Schwedische Princessin', 29)} 
+                  image={`${process.env.PUBLIC_URL}/assets/img/schwedische_t.jpg`} 
+                  title="Schwedische Princessin Torte" 
+                  description="Bitte füge Schwedische Princessin Torte zu deinem Warenkorb hinzu" 
+                  price="29€" 
+                />
+                <Product 
+                  onAdd={() => this.addItem(1, 'Weitwälder', 30)} 
+                  image={`${process.env.PUBLIC_URL}/assets/img/weit_k1.jpg`} 
+                  title="Weitwälder Kuchen" 
+                  description="Bitte füge Weitwälder Kuchen zu deinem Warenkorb hinzu" 
+                  price="30€" 
+                />
+                <Product 
+                  onAdd={() => this.addItem(1, 'Himbeer Quark Torte', 39)} 
+                  image={`${process.env.PUBLIC_URL}/assets/img/him_quark_t1.jpg`} 
+                  title="Himbeer Quark Torte" 
+                  description="Bitte füge Himbeer Quark Torte zu deinem Warenkorb hinzu" 
+                  price="39€" 
+                />
               </div>
               <ShoppingCard
                 items={this.state.items}

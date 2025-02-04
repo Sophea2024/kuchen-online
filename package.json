@@ -2,7 +2,7 @@
   "name": "kuchen-online",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sophea2024.github.io/kuchen-online",
+  "homepage": "https://sophea2024.github.io/kuchen-online/",
   "dependencies": {
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
@@ -40,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@testing-library/react": "^16.2.0",
     "gh-pages": "^6.3.0"
   }
