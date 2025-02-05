@@ -3,18 +3,27 @@
   display: flex;
   padding: 32px;
 }
+.welcome-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
 
 /*set style for item-container-div*/
 .product-container{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   gap: 32px;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 32px;
-  padding-right: 32px;
+  margin: 0;
+  padding: 0 32px;
 }
+
 .shopping-card{
-  width: 300px;
+  width: calc(25% - 24px); /* 25% für vier Spalten minus den Abstand */
+  min-width: 250px; /* Mindestbreite, um responsiv zu bleiben */
+  box-sizing: border-box; /* Verhindert Layout-Verschiebungen */
 }
 
 /* set dynamic screen-size */
@@ -22,15 +31,14 @@
   .product-container {
     flex-direction: column;
   }
-}
-.navbar {
-  background-color: mediumblue;
-  margin: 0;
-  margin-bottom: 16px;
-  .navbar-brand{
-    color: white;
+  .shopping-card {
+    width: 100%; /* Nimmt die volle Breite bei kleinen Displays */
   }
 }
+Producnt .description {
+  white-space: pre-line;
+}
+
 .checkout-page {
   margin: 32px;
 }
@@ -43,4 +51,13 @@
 }
 .items {
   margin-top: 3px;
+}
+
+.navbar {
+  background-color: mediumblue;
+  margin: 0;
+  margin-bottom: 16px;
+  .navbar-brand{
+    color: white;
+  }
 }
