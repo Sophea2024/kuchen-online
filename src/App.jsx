@@ -56,17 +56,17 @@ class App extends Component {
                     price="18€" 
                   />
                   <Product 
-                    onAdd={() => this.addItem(1, 'Schwedische Princessin', 33)} 
+                    onAdd={() => this.addItem(1, 'Schwedische Prinzessin', 33)} 
                     image={`${process.env.PUBLIC_URL}/assets/img/schwedische_t.jpg`}
-                    title="Schwedische Princessin Torte" 
+                    title="Schwedische Prinzessin Torte" 
                     description="Bitte füge Schwedische Princessin Torte zu deinem Warenkorb hinzu" 
                     price="33€" 
                   />
                   <Product 
-                    onAdd={() => this.addItem(1, 'Weitwälder', 30)} 
+                    onAdd={() => this.addItem(1, 'Weißwälder', 30)} 
                     image={`${process.env.PUBLIC_URL}/assets/img/weit_k1.jpg`} 
                     title="Weitwälder Kuchen" 
-                    description="Bitte füge Weitwälder Kuchen zu deinem Warenkorb hinzu." 
+                    description="Bitte füge Weißwälder Kuchen zu deinem Warenkorb hinzu." 
                     price="30€" 
                   />
                   <Product 
