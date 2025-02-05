@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/kuchen-online/static/css/main.5e94baa3.css",
-    "main.js": "/kuchen-online/static/js/main.4169576e.js",
+    "main.js": "/kuchen-online/static/js/main.e36b60f4.js",
     "index.html": "/kuchen-online/index.html",
     "main.5e94baa3.css.map": "/kuchen-online/static/css/main.5e94baa3.css.map",
-    "main.4169576e.js.map": "/kuchen-online/static/js/main.4169576e.js.map"
+    "main.e36b60f4.js.map": "/kuchen-online/static/js/main.e36b60f4.js.map"
   },
   "entrypoints": [
     "static/css/main.5e94baa3.css",
-    "static/js/main.4169576e.js"
+    "static/js/main.e36b60f4.js"
   ]
 }
