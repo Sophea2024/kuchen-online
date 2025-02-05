@@ -35,6 +35,7 @@
     width: 100%; /* Nimmt die volle Breite bei kleinen Displays */
   }
 }
+
 Producnt .description {
   white-space: pre-line;
 }

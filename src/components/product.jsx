@@ -15,7 +15,7 @@ class Product extends Component {
       <p className="card-text">{this.props.description}</p>
       <p className="card-price">{this.props.price}</p>
       <button onClick={this.props.onAdd} className="btn btn-primary">
-        In Warenkoro Hinzufügen
+        In Warenkorb Hinzufügen
       </button>
     </div>
   </div>

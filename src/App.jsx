@@ -65,7 +65,7 @@ class App extends Component {
                   <Product 
                     onAdd={() => this.addItem(1, 'Weißwälder', 30)} 
                     image={`${process.env.PUBLIC_URL}/assets/img/weit_k1.jpg`} 
-                    title="Weitwälder Kuchen" 
+                    title="Weißtwälder Kuchen" 
                     description="Bitte füge Weißwälder Kuchen zu deinem Warenkorb hinzu." 
                     price="30€" 
                   />
