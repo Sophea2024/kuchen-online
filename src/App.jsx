@@ -49,14 +49,14 @@ class App extends Component {
               <div className="main-container">
                 <div className="product-container">
                   <Product 
-                    onAdd={() => this.addItem(1, 'Marinkäfer', 12)}                   
+                    onAdd={() => this.addItem(1, 'Marinkäfer', 18)}                   
                     image={`${process.env.PUBLIC_URL}/assets/img/marin_kaefer.jpg`} 
                     title="Marinkäfer Kuchen" 
                     description="Bitte füge Marinkäfer Kuchen zu deinem Warenkorb hinzu" 
                     price="18€" 
                   />
                   <Product 
-                    onAdd={() => this.addItem(1, 'Schwedische Princessin', 29)} 
+                    onAdd={() => this.addItem(1, 'Schwedische Princessin', 33)} 
                     image={`${process.env.PUBLIC_URL}/assets/img/schwedische_t.jpg`}
                     title="Schwedische Princessin Torte" 
                     description="Bitte füge Schwedische Princessin Torte zu deinem Warenkorb hinzu" 
@@ -70,21 +70,21 @@ class App extends Component {
                     price="30€" 
                   />
                   <Product 
-                    onAdd={() => this.addItem(1, 'Himbeer Quark Torte', 39)} 
+                    onAdd={() => this.addItem(1, 'Himbeer Quark Torte', 45)} 
                     image={`${process.env.PUBLIC_URL}/assets/img/him_quark_t1.jpg`}
                     title="Himbeer Quark Torte" 
                     description="Bitte füge Himbeer Quark Torte zu deinem Warenkorb hinzu." 
                     price="45€" 
                   />
                   <Product 
-                    onAdd={() => this.addItem(1, 'Schwarzwälder Kuchen', 39)} 
+                    onAdd={() => this.addItem(1, 'Schwarzwälder Kuchen', 35)} 
                     image={`${process.env.PUBLIC_URL}/assets/img/schw_k1.jpg`}
                     title="Schwarzwälder Kuchen" 
                     description="Bitte füge Schwarzwälder Kuchen zu deinem Warenkorb hinzu." 
                     price="35€" 
                   />
                   <Product 
-                    onAdd={() => this.addItem(1, 'Himbeere Joghurt Torte', 39)} 
+                    onAdd={() => this.addItem(1, 'Himbeere Joghurt Torte', 30)} 
                     image={`${process.env.PUBLIC_URL}/assets/img/him_joghurt_t1.jpg`}
                     title="Himbeere Joghurt Torte" 
                     description={
