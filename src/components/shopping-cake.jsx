@@ -14,7 +14,7 @@ class ShoppingCard extends Component {
   /*display all item in Warenkorp with user-click*/
   render() { 
     return <div className="shopping-card">
-      <h3>Warenkorp</h3>
+      <h3>Warenkorb</h3>
       {this.props.items.map(item =>( 
         <div key={item.name}>
           {item.amount} x {item.name} {item.price}€ 

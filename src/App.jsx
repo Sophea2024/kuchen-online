@@ -49,10 +49,10 @@ class App extends Component {
               <div className="main-container">
                 <div className="product-container">
                   <Product 
-                    onAdd={() => this.addItem(1, 'Marinkäfer', 18)}                   
-                    image={`${process.env.PUBLIC_URL}/assets/img/marin_kaefer.jpg`} 
-                    title="Marinkäfer Kuchen" 
-                    description="Bitte füge Marinkäfer Kuchen zu deinem Warenkorb hinzu" 
+                    onAdd={() => this.addItem(1, 'Marienkäfer', 18)}                   
+                    image={`${process.env.PUBLIC_URL}/assets/img/marien_kaefer.jpg`} 
+                    title="Marienkäfer Kuchen" 
+                    description="Bitte füge Marienkäfer Kuchen zu deinem Warenkorb hinzu" 
                     price="18€" 
                   />
                   <Product 
@@ -84,9 +84,9 @@ class App extends Component {
                     price="35€" 
                   />
                   <Product 
-                    onAdd={() => this.addItem(1, 'Himbeere Joghurt Torte', 30)} 
+                    onAdd={() => this.addItem(1, 'Himbeer Joghurt Torte', 30)} 
                     image={`${process.env.PUBLIC_URL}/assets/img/him_joghurt_t1.jpg`}
-                    title="Himbeere Joghurt Torte" 
+                    title="Himbeer Joghurt Torte" 
                     description={
                       <>
                         Himbeere Joghurt Torte schmeckt sehr gut. <br /><br />
