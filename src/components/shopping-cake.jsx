@@ -21,7 +21,7 @@ class ShoppingCard extends Component {
         </div>
       ))}
       <hr />
-      <div>Total Price: {this.calculateTotalPrice()}€</div>
+      <div>Gesamtpreis: {this.calculateTotalPrice()}€</div>
       <Link to="/checkout">
         <button className="btn btn-primary">Zum Warenkorb</button>
       </Link>

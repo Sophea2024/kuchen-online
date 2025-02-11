@@ -45,7 +45,7 @@ class App extends Component {
         <Routes>
           <Route path="/" element={ 
             <div> 
-              <h1 className="welcome-text">Willkommen zum mein Bachwelt!</h1>          
+              <h1 className="welcome-text">Willkommen zum mein Backwelt!</h1>          
               <div className="main-container">
                 <div className="product-container">
                   <Product 
@@ -59,7 +59,7 @@ class App extends Component {
                     onAdd={() => this.addItem(1, 'Schwedische Prinzessin', 33)} 
                     image={`${process.env.PUBLIC_URL}/assets/img/schwedische_t.jpg`}
                     title="Schwedische Prinzessin Torte" 
-                    description="Bitte füge Schwedische Princessin Torte zu deinem Warenkorb hinzu" 
+                    description="Bitte füge Schwedische Prinzessin Torte zu deinem Warenkorb hinzu" 
                     price="33€" 
                   />
                   <Product 
@@ -89,7 +89,7 @@ class App extends Component {
                     title="Himbeer Joghurt Torte" 
                     description={
                       <>
-                        Himbeere Joghurt Torte schmeckt sehr gut. <br /><br />
+                        Himbeer Joghurt Torte schmeckt sehr gut. <br /><br />
                         Bitte füge Himbeer Quark Torte zu deinem Warenkorb hinzu.
                       </>
                     }   
