@@ -45,7 +45,7 @@ class App extends Component {
         <Routes>
           <Route path="/" element={ 
             <div> 
-              <h1 className="welcome-text">Willkommen zum mein Backwelt!</h1>          
+              <h1 className="welcome-text">Willkommen zu meiner Backwelt!</h1>          
               <div className="main-container">
                 <div className="product-container">
                   <Product 
@@ -65,8 +65,8 @@ class App extends Component {
                   <Product 
                     onAdd={() => this.addItem(1, 'Weißwälder', 30)} 
                     image={`${process.env.PUBLIC_URL}/assets/img/weit_k1.jpg`} 
-                    title="Weißwälder Kuchen" 
-                    description="Bitte füge Weißwälder Kuchen zu deinem Warenkorb hinzu." 
+                    title="Weißwälder Torte" 
+                    description="Bitte füge Weißwälder Torte zu deinem Warenkorb hinzu." 
                     price="30€" 
                   />
                   <Product 
@@ -77,10 +77,10 @@ class App extends Component {
                     price="45€" 
                   />
                   <Product 
-                    onAdd={() => this.addItem(1, 'Schwarzwälder Kuchen', 35)} 
+                    onAdd={() => this.addItem(1, 'Schwarzwälder Torte', 35)} 
                     image={`${process.env.PUBLIC_URL}/assets/img/schw_k1.jpg`}
-                    title="Schwarzwälder Kuchen" 
-                    description="Bitte füge Schwarzwälder Kuchen zu deinem Warenkorb hinzu." 
+                    title="Schwarzwälder Torte" 
+                    description="Bitte füge Schwarzwälder Torte zu deinem Warenkorb hinzu." 
                     price="35€" 
                   />
                   <Product 
